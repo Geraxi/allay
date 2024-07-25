@@ -1,0 +1,25 @@
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+nav{
+    background-color: burlywood;
+    
+}
+
+body{
+    background-image: url(./media/backgroundimg.jpg); 
+    background-repeat: no-repeat;
+    
+}
+
+a:hover{
+    background-color: brown;
+}
