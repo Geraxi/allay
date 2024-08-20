@@ -86,13 +86,29 @@ h1{
 }
 
 .imgArticle{
-    width: 400px;
+    max-width: 100%; height: auto;
 
+}
+
+article{
+    width: 20%;
 }
 
 .containerarticle{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+   width: 60%;
+   display: flex;
+   justify-content: space-around;
 }
+
+.main_section{
+    display: flex;
+}
+
+aside{
+    width: 40%;
+}
+
+footer{
+    border-image: url(bottonesu.png);
+}
+
