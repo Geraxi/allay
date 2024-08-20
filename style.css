@@ -113,3 +113,10 @@ tornasu{
     align-items: end;
 }
 
+
+@media screen {
+    tornasu{
+        min-height: 20px;
+    }
+}
+
