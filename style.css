@@ -36,7 +36,7 @@ nav li{
 }
 
 header{
-    background-image: url(./media/backgroundimg.jpg);
+    background-image: url(backgroundimg.jpg);
     height: 80vh;
     background-size: cover;
     background-position: center;
