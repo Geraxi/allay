@@ -108,7 +108,8 @@ aside{
     width: 40%;
 }
 
-footer{
-    border-image: url(bottonesu.png);
+tornasu{
+    position: fixed;
+    align-items: end;
 }
 
