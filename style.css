@@ -94,6 +94,14 @@ article{
     width: 20%;
 }
 
+.logoaulab{
+
+    width: 50px;
+    height: 50px;
+    
+  
+}
+
 .containerarticle{
    width: 60%;
    display: flex;
@@ -108,15 +116,69 @@ aside{
     width: 40%;
 }
 
-tornasu{
-    position: fixed;
-    align-items: end;
+footer{
+    background-color: rgb(38, 38, 38,0.744);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    height: 30vh;
+    margin-top: 100px;
+
 }
 
+.Imgicon{
+    width: 50px;
+    height: 50px;
+    animation-name: icon;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: fixed;
+    top: 50vh;
 
-@media screen {
-    tornasu{
-        min-height: 20px;
+}
+
+@keyframes icon{
+
+    0%{
+        transform: translateY(50px);
+
+    } 100%{
+        transform: translateY(0px);
     }
+
+}
+
+@media screen and (max-width: 670px) {
+
+    .link{
+        font-size: 10px;
+    }
+    .logo{
+        width: 30px;
+        height: 30px;
+
+    }
+    .containerarticle{
+        display: block;
+        width: 100%;
+    }
+    
+    aside{
+        width: 100%;
+        display: block;
+    }
+
+    .main_section {
+
+        display: block;
+    }
+
+    footer{
+
+        display: block;
+    }
+
+
 }
 
