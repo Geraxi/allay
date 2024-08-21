@@ -19,6 +19,8 @@ nav{
     text-align: center;
     word-spacing: 2px;
     position: fixed;
+    background-image: url(logoAulabbkgrnd.png);
+    background-repeat: no-repeat;
    
 
 }
@@ -114,6 +116,7 @@ article{
 
 aside{
     width: 40%;
+    
 }
 
 footer{
