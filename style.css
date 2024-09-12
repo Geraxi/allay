@@ -1,188 +1,117 @@
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aqua;
-}
-
-p{
-    font-family: 'Courier New', Courier, monospace;
-    
-
-
-}
-
 nav{
-    background-color: burlywood;
+    background-color:rgb(86, 7, 23);
     display: inline-block;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     text-align: center;
-    word-spacing: 2px;
+    word-spacing: 30px;
     position: fixed;
-    background-image: url(logoAulabbkgrnd.png);
-    background-repeat: no-repeat;
-   
+    font-size: 25px;
+
+    
+
+}
+
+
+
+nav li{
+    list-style-type: none;
+    display: flex;
 
 }
 
 nav li{
     list-style-type: none;
     display: inline-block;
-    
+
 }
 
-
-.listlink {
+.listlink{
     list-style-type: none;
     display: flex;
 }
 
 header{
-    background-image: url(backgroundimg.jpg);
-    height: 80vh;
+    background-image: url(./media/backgroundmov.jpeg);
+    height: 100vh;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.articlemov{
+
+    display: flex;
+    width: 60%;
+}
+
+
+
+.containerarticle{
+
+display: flex;
+width: 100%;
+justify-content: space-around;
+align-items: start;
+background-color:rgb(57, 154, 227);
+padding-bottom: 40px;
+padding-top: 30px;
+
+
+
+}
+
+.TitleArticle{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:midnightblue;
+    color: azure;
+}
+
+
+.imgArticle{
+
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    
+  
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+h3{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
     justify-content: center;
 }
 
-.link{
-    text-decoration: none;
-    color: white;
-    margin-right: 10px;
-}
 
-.link:hover{
-    border-bottom: 2px solid;
-    
-}
+.links{
 
+    display: flex;
+    list-style-type: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
 
-
-/* body{
-    background-image: url(./media/backgroundimg.jpg); 
-    background-repeat: no-repeat; //serve per non ripetere l'immagine in tutto il body ma renderla visibile solo una volta
-    
-} */
-
-
-
-a:hover{
-    background-color: blue;
 }
 
 
 h1{
-    color: white;
-    margin-right: 10px;
-    font-size: 80px;
-
-}
-
-.titleArticle{
     text-align: center;
-    font-size: 30px;
-  
 }
-
-.imgArticle{
-    max-width: 100%; height: auto;
-
-}
-
-article{
-    width: 20%;
-}
-
-.logoaulab{
-
-    width: 50px;
-    height: 50px;
-    
-  
-}
-
-.containerarticle{
-   width: 60%;
-   display: flex;
-   justify-content: space-around;
-}
-
-.main_section{
-    display: flex;
-}
-
-aside{
-    width: 40%;
-    background-color: yellow;
-    
-}
-
-footer{
-    background-color: rgb(38, 38, 38,0.744);
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    align-items: center;
-    height: 30vh;
-    margin-top: 100px;
-
-}
-
-.Imgicon{
-    width: 50px;
-    height: 50px;
-    animation-name: icon;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    position: fixed;
-    top: 50vh;
-
-}
-
-@keyframes icon{
-
-    0%{
-        transform: translateY(50px);
-
-    } 100%{
-        transform: translateY(0px);
-    }
-
-}
-
-@media screen and (max-width: 670px) {
-
-    .link{
-        font-size: 10px;
-    }
-    .logo{
-        width: 30px;
-        height: 30px;
-
-    }
-    .containerarticle{
-        display: block;
-        width: 100%;
-    }
-    
-    aside{
-        width: 100%;
-        display: block;
-    }
-
-    .main_section {
-
-        display: block;
-    }
-
-    footer{
-
-        display: block;
-    }
-
-
-}
-
