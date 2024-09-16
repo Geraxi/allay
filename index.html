@@ -3,187 +3,125 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Home Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-   
 
-    <nav class="navbar navbar-expand-lg bg-dark position-fixed top-0 w-100">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white" href="#">Blog Cinema</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Chi siamo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Contatti</a>
-              </li>
-              
-                </ul>
-              </li>
-            </ul>
+
+<div class="container-fluid p-0">
+    <div class="row justify-content-center">
+        <div class="col-12">
+
+            <nav class="navbar navbar-expand bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"></a>
+        
+                  <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                      <li class="nav-item mx-5">
+                        <a class="nav-link active text-light" aria-current="page" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item mx-5">
+                        <a class="nav-link text-light" href="./chi-siamo.html">Chi siamo</a>
+                      </li>
+                      <li class="nav-item mx-5">
+                        <a class="nav-link text-light" href="./annunci.html">Annunci</a>
+                      </li>
+                      
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+    </div>
+</div>
+
+
+  <body>
+
+
+    <header class="container-fluid"></header>
+    <div class="row vh-100 align-items-center header-custom">
+        <div class="col-12 text-center">
+            <h1 class="text-light">Blog Di Viaggi</h1>
+
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-12">
+                <img src="./media/mappamondo.jpg" alt="Mappa del Mondo" class="img-fluid w-100">
+            </div>
+        </div>
+    </section>
+
+    <h2 class="text-center">FAQ-Frequently Asked Questions</h2>
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              Qual'é la destinazione piú economica?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatem!
+            </div>
           </div>
         </div>
-      </nav>
-   
-        <header class="container-fluid">
-            <div class="row vh-100 justify-content-center align-items-center">
-                <div class="col-12">
-                  <h1 class="text-white text-center">Blog Cinema</h1>
-               </div>
-            </div>
-
-        </header>
-
-        <section class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 text-white text-center my-5">
-                    <h2>Film in Evidenza</h2>
-                </div>
-
-                <div class="col-12 col-md-3 d-flex justify-content-center">
-                    <div class="card bg-dark text-white" style="width: 18rem;">
-                        <img src="" class="card-img-top" alt="Interstellar">
-                        <div class="card-body">
-                          <h5 class="card-title">Interstellar</h5>
-                          <p class="card-text">Ambientato all'interno del XXI secolo, il setting di Interstellar è un futuro distopico nel quale la Terra è ormai diventata un pianeta povero di risorse, inabitabile e colpito da continue tempeste di sabbia che rendono la vita impossibile.</p>
-                          <a href="https://www.rottentomatoes.com/m/interstellar_2014" class="btn btn-outline-light">Visita</a>
-                        </div>
-                      </div>
-                      
-                </div>
-                <div class="col-12 col-md-3 d-flex justify-content-center">
-                    <div class="card bg-dark text-white" style="width: 18rem;">
-                        <img src="" class="card-img-top" alt="Saw">
-                        <div class="card-body">
-                          <h5 class="card-title">Saw</h5>
-                          <p class="card-text">La trama di questa serie di film ruota intorno all'astuto ed efferato John Kramer, alias Jigsaw, sofferente di un cancro al cervello in fase terminale, e ai suoi apprendisti. Le vittime vengono catturate e poste in trappole mortali, dalle quali è possibile uscire solitamente dopo mutilazioni e grandi sofferenze.</p>
-                          <a href="https://www.rottentomatoes.com/m/saw" class="btn btn-outline-light">Visita</a>
-                        </div>
-                      </div>
-                      
-                </div>
-                <div class="col-12 col-md-3 d-flex justify-content-center">
-                    <div class="card bg-dark text-white" style="width: 18rem;">
-                        <img src="" class="card-img-top" alt="Avengers">
-                        <div class="card-body">
-                          <h5 class="card-title">Avengers Infity War</h5>
-                          <p class="card-text">Gli Avengers devono impedire a Thanos, un signore della guerra intergalattico, di mettere le mani su tutte le Pietre dell'infinito. Tuttavia, Thanos è pronto a fare di tutto per portare a termine il suo folle piano.</p>
-                          <a href="https://www.rottentomatoes.com/m/avengers_infinity_war" class="btn btn-outline-light">Visita</a>
-                        </div>
-                      </div>
-                      
-                </div>
-            </div>
-
-        </section>
-
-
-
-       <section class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 text-white text-center my-5">
-                <h2>Lavora con noi</h2>
-            </div>
-            <div class="col-12 col-md-4">
-                <form class="bg-secondary rounded-4 p-5">
-                    <div class="mb-3 text-white">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div class="mb-3 text-white">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check text-white">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Invia</button>
-                    </form>
-            </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              Qual'é la migliore compania con cui viaggiare?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit.</strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, consectetur!
+          </div>
         </div>
-       </section>
-
-<footer class="container-fluid">
-        <div class="row text-white justify-content-around footer-custom bg-secondary mt-5 align-items-center">
-            <div class="col-12 col-md-3"
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis illo quod quisquam non reiciendis. At?</p>
-
-        </div>
-
-    <div class="col-12 col-md-3 d-flex justify-content-center list-footer"
-        <ul>
-            <li>Link1</li>
-            <li>Link2</li>
-            <li>Link3</li>
-        </ul>
-    </div>
-
-    <div class="col-12 col-md-3 d-flex justify-content-center list-footer"
-        <ul>
-            <li>Link Facebook<i class="bi bi-facebook"></i></li>
-            <li>Link Instagram<i class="bi bi-facebook"></i></li>
-            <li>Link Twitter<i class="bi bi-twitter"></i></li>
-        </ul>
-    </div>
- </footer>
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content bg-dark text-white">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Grazie per averci contattato</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam error iure nulla et
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              Quali sono le leggi da rispettare a Dubai?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Lorem ipsum dolor sit.</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, eum?
+            </div>
+          </div>
         </div>
       </div>
+
+<footer class="footer-custom">
+    <div class="row">
+        <div class="col-4 text-center">
+            <p>Indirizzo: Viaroma 196</p>
+            <p>P.IVA: 12345678</p>
+            <p>num: +39 3791720976</p>
+        </div>
+
+        <div class="col-4 text-center">
+            <p>Apple</p>
+            <p>Tesla</p>
+            <p>Microsoft</p>
+        </div>
+
+        <div class="col-4 text-center">
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>Linkedin</p>
+        </div>
     </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
+      
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+  
 </html>
 
  
