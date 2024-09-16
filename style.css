@@ -1,21 +1,25 @@
-body{
-    background-color: black;
-}
-
-
-h1{
-    letter-spacing: 10px;
-    font-size: 4rem;
-}
-
-header{
-    background:linear-gradient(transparent, black),url(./media/cinema1.jpg);
-    background-size: cover;
+.header-custom{
+    background-image: url(./media/viaggibk.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
 }
 
-ul{
-    list-style-type: none;
+.footer-custom{
+    background-color: orange;
+
+}
+
+
+.card-img-top{
+    width: 300px;
+    height: 300px;
+}
+
+.img-custom{
+    width: 700px;
 }
 
 .footer-custom{
