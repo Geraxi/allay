@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guida Partita IVA — Tutto quello che devi sapere</title>
+  <link rel="stylesheet" href="partita-iva.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">💼 Partita IVA Guide</div>
+    <ul class="nav-links">
+      <li><a href="#cos-e">Cos'è</a></li>
+      <li><a href="#apertura">Apertura</a></li>
+      <li><a href="#regimi">Regimi Fiscali</a></li>
+      <li><a href="#fatture">Fatture</a></li>
+      <li><a href="#tasse">Tasse</a></li>
+      <li><a href="#contributi">Contributi</a></li>
+      <li><a href="#scadenze">Scadenze</a></li>
+      <li><a href="#calcolatore">Calcolatore</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Guida Completa alla<br /><span class="accent">Partita IVA</span></h1>
+      <p>Tutto ciò che devi sapere su tasse, fatture, contributi e scadenze — spiegato in modo semplice.</p>
+      <a href="#apertura" class="btn-primary">Inizia qui</a>
+      <a href="#calcolatore" class="btn-secondary">Calcola le tue tasse</a>
+    </div>
+    <div class="hero-illustration">
+      <div class="card-float card1">📄 Fattura elettronica</div>
+      <div class="card-float card2">💰 Forfettario 15%</div>
+      <div class="card-float card3">📅 Scadenza F24</div>
+    </div>
+  </header>
+
+  <!-- COS'È -->
+  <section id="cos-e" class="section">
+    <div class="container">
+      <h2 class="section-title">Cos'è la Partita IVA?</h2>
+      <p class="section-intro">La Partita IVA è un codice numerico di 11 cifre assegnato dall'Agenzia delle Entrate a ogni soggetto che svolge un'attività economica in modo autonomo e abituale in Italia.</p>
+      <div class="cards-grid">
+        <div class="info-card">
+          <div class="card-icon">🔢</div>
+          <h3>Cos'è</h3>
+          <p>Un identificativo fiscale univoco di 11 cifre. Obbligatorio per chi esercita attività di lavoro autonomo, libera professione o impresa in modo continuativo.</p>
+        </div>
+        <div class="info-card">
+          <div class="card-icon">👤</div>
+          <h3>Chi ne ha bisogno</h3>
+          <ul>
+            <li>Freelance e professionisti</li>
+            <li>Artigiani e commercianti</li>
+            <li>Consulenti e designer</li>
+            <li>Sviluppatori e creator</li>
+            <li>Chiunque fatturi regolarmente</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <div class="card-icon">⚡</div>
+          <h3>Quando NON serve</h3>
+          <ul>
+            <li>Lavoro dipendente (contratto)</li>
+            <li>Prestazioni occasionali (&lt; €5.000/anno)</li>
+            <li>Rimborsi spese documentate</li>
+          </ul>
+        </div>
+      </div>
+      <div class="alert alert-info">
+        <strong>💡 Prestazioni occasionali:</strong> Puoi fare fino a €5.000/anno lordi senza Partita IVA con una <em>ricevuta per prestazione occasionale</em>. Superata questa soglia, l'apertura diventa obbligatoria.
+      </div>
+    </div>
+  </section>
+
+  <!-- APERTURA -->
+  <section id="apertura" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Come Aprire la Partita IVA</h2>
+      <p class="section-intro">L'apertura è gratuita e si può fare online in pochi minuti tramite il sito dell'Agenzia delle Entrate.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Scegli il codice ATECO</h3>
+            <p>Il codice ATECO identifica la tua attività. Es: <code>62.01.00</code> per sviluppo software, <code>74.10.21</code> per design grafico. Cercalo sul sito ISTAT o Agenzia delle Entrate.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Scegli il regime fiscale</h3>
+            <p>Il più comune per chi inizia è il <strong>Regime Forfettario</strong> (se hai meno di €85.000 di ricavi). Valuta anche il regime ordinario se hai molte spese deducibili.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Compila il modello AA9/12</h3>
+            <p>È il modulo per l'apertura della Partita IVA per persone fisiche. Si invia online tramite il sito dell'Agenzia delle Entrate con SPID o CNS.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Iscriviti alla Cassa Previdenziale</h3>
+            <p>In base alla tua attività, dovrai iscriverti alla <strong>Gestione Separata INPS</strong> (la maggior parte dei freelance) o a una Cassa di categoria (avvocati, medici, ingegneri…).</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">5</div>
+          <div class="step-content">
+            <h3>Attiva la fatturazione elettronica</h3>
+            <p>Obbligatoria dal 2024 per tutti i titolari di Partita IVA. Registrati su un software di fatturazione (es. Fatture in Cloud, Invoify, Aruba) o usa il portale dell'Agenzia delle Entrate.</p>
+          </div>
+        </div>
+      </div>
+      <div class="alert alert-success">
+        <strong>✅ Costo apertura:</strong> Aprire la Partita IVA è <strong>completamente gratuito</strong>. Attenzione agli intermediari che chiedono denaro per farlo al posto tuo — non è necessario pagare nessuno.
+      </div>
+    </div>
+  </section>
+
+  <!-- REGIMI FISCALI -->
+  <section id="regimi" class="section">
+    <div class="container">
+      <h2 class="section-title">Regimi Fiscali</h2>
+      <p class="section-intro">Il regime fiscale determina come calcoli le tasse. La scelta giusta può farti risparmiare migliaia di euro l'anno.</p>
+
+      <div class="regime-comparison">
+        <!-- FORFETTARIO -->
+        <div class="regime-card featured">
+          <div class="regime-badge">Più comune</div>
+          <h3>Regime Forfettario</h3>
+          <div class="regime-tax">15% <span>o 5%*</span></div>
+          <p class="regime-subtitle">Sul reddito imponibile</p>
+          <ul class="regime-features">
+            <li>✅ Limite ricavi: <strong>€85.000/anno</strong></li>
+            <li>✅ Nessuna IVA sulle fatture</li>
+            <li>✅ Contabilità semplificata</li>
+            <li>✅ Nessun ISA (studi di settore)</li>
+            <li>✅ Imposta sostitutiva unica</li>
+            <li>❌ No deduzione spese reali</li>
+            <li>❌ No detrazioni fiscali personali</li>
+          </ul>
+          <div class="regime-note">*5% per i primi 5 anni se nuova attività e ricavi sotto €65k nell'anno precedente</div>
+        </div>
+
+        <!-- ORDINARIO -->
+        <div class="regime-card">
+          <h3>Regime Ordinario</h3>
+          <div class="regime-tax">23–43%</div>
+          <p class="regime-subtitle">IRPEF a scaglioni + IVA</p>
+          <ul class="regime-features">
+            <li>✅ Deduci spese reali</li>
+            <li>✅ Detrazioni personali (figli, mutuo…)</li>
+            <li>✅ Nessun limite di ricavi</li>
+            <li>❌ IVA da gestire e versare</li>
+            <li>❌ Contabilità complessa</li>
+            <li>❌ ISA applicabili</li>
+          </ul>
+          <div class="regime-note">Conviene se hai molte spese deducibili o ricavi sopra €85k</div>
+        </div>
+      </div>
+
+      <!-- Scaglioni IRPEF -->
+      <h3 class="subsection-title">Scaglioni IRPEF (Regime Ordinario)</h3>
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Reddito imponibile</th>
+              <th>Aliquota IRPEF</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Fino a €28.000</td><td>23%</td></tr>
+            <tr><td>Da €28.001 a €50.000</td><td>35%</td></tr>
+            <tr><td>Oltre €50.000</td><td>43%</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Coefficienti forfettario -->
+      <h3 class="subsection-title">Coefficienti di Redditività (Forfettario)</h3>
+      <p>Nel regime forfettario non deduci le spese reali: l'imponibile si calcola applicando un coefficiente ai ricavi.</p>
+      <div class="table-wrapper">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Categoria attività</th>
+              <th>Coefficiente</th>
+              <th>Esempio ATECO</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Attività professionali e consulenza</td><td>78%</td><td>Consulenti, avvocati, IT</td></tr>
+            <tr><td>Commercio al dettaglio e ingrosso</td><td>40%</td><td>Negozi, e-commerce</td></tr>
+            <tr><td>Costruzioni e attività immobiliari</td><td>86%</td><td>Artigiani edili</td></tr>
+            <tr><td>Intermediari del commercio</td><td>62%</td><td>Agenti di vendita</td></tr>
+            <tr><td>Alberghi e ristoranti</td><td>40%</td><td>Ristorazione</td></tr>
+            <tr><td>Altre attività economiche</td><td>67%</td><td>Vari settori</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- FATTURE -->
+  <section id="fatture" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Le Fatture</h2>
+      <p class="section-intro">La fattura è il documento fiscale che emetti ogni volta che vendi un prodotto o servizio. Dal 2024 è obbligatoriamente elettronica.</p>
+
+      <div class="fattura-demo">
+        <div class="fattura-preview">
+          <div class="fattura-header">
+            <div>
+              <strong>FATTURA ELETTRONICA</strong><br />
+              <small>N° 001/2024</small>
+            </div>
+            <div class="fattura-date">Data: 15/03/2024</div>
+          </div>
+          <div class="fattura-body">
+            <div class="fattura-row">
+              <div>
+                <strong>Cedente (chi emette):</strong><br />
+                Mario Rossi<br />
+                P.IVA: 12345678901<br />
+                Via Roma 1, Milano
+              </div>
+              <div>
+                <strong>Cessionario (chi riceve):</strong><br />
+                Azienda SRL<br />
+                P.IVA: 98765432100<br />
+                Cod. SDI: ABC1234
+              </div>
+            </div>
+            <table class="fattura-table">
+              <thead>
+                <tr><th>Descrizione</th><th>Quantità</th><th>Prezzo</th><th>Totale</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Sviluppo sito web</td><td>1</td><td>€1.000,00</td><td>€1.000,00</td></tr>
+              </tbody>
+            </table>
+            <div class="fattura-totali">
+              <div class="totale-row"><span>Imponibile:</span><span>€1.000,00</span></div>
+              <div class="totale-row"><span>IVA (22% — solo regime ordinario):</span><span>€220,00</span></div>
+              <div class="totale-row ritenuta"><span>Ritenuta d'acconto (20% — se applicabile):</span><span>-€200,00</span></div>
+              <div class="totale-row totale-finale"><span><strong>Totale da pagare:</strong></span><span><strong>€1.020,00</strong></span></div>
+            </div>
+            <div class="fattura-bollo">⚠️ Marca da bollo €2,00 (se fattura &gt; €77,47 e regime ordinario senza IVA)</div>
+          </div>
+        </div>
+
+        <div class="fattura-info">
+          <h3>Elementi obbligatori</h3>
+          <ul class="checklist">
+            <li>✅ Numero progressivo e data</li>
+            <li>✅ Dati cedente (nome/P.IVA/indirizzo)</li>
+            <li>✅ Dati cessionario (nome/P.IVA o CF)</li>
+            <li>✅ Codice SDI o PEC del destinatario</li>
+            <li>✅ Descrizione beni/servizi</li>
+            <li>✅ Quantità e prezzi unitari</li>
+            <li>✅ Imponibile e IVA (o causale esenzione)</li>
+            <li>✅ Totale da pagare</li>
+            <li>✅ Modalità e termini di pagamento</li>
+          </ul>
+
+          <h3>Forfettario: cosa cambia</h3>
+          <div class="alert alert-warning">
+            <p>Se sei in <strong>regime forfettario</strong>, sulla fattura devi aggiungere la dicitura:</p>
+            <blockquote>"Operazione effettuata ai sensi dell'art. 1, commi 54-89, L. 190/2014 — Regime Forfettario. L'operazione è esente IVA."</blockquote>
+            <p>Non addebiti IVA al cliente, ma non puoi nemmeno recuperarla sugli acquisti.</p>
+          </div>
+
+          <h3>Ritenuta d'acconto</h3>
+          <p>Se il tuo cliente è un'azienda o un professionista, potrebbe applicarti una <strong>ritenuta d'acconto del 20%</strong> sul compenso. La trattieni sul totale da pagare: lui la versa al fisco per tuo conto, e tu la recuperi in dichiarazione dei redditi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TASSE -->
+  <section id="tasse" class="section">
+    <div class="container">
+      <h2 class="section-title">Come Funzionano le Tasse</h2>
+      <p class="section-intro">Le tasse si pagano tramite il modello F24 e si calcolano sulla dichiarazione dei redditi annuale (Modello Redditi PF).</p>
+
+      <div class="tax-flow">
+        <div class="flow-step">
+          <div class="flow-icon">💰</div>
+          <h3>Ricavi</h3>
+          <p>Tutto ciò che fatturi durante l'anno</p>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="flow-icon">📊</div>
+          <h3>× Coefficiente</h3>
+          <p>Es. 78% per consulenza</p>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="flow-icon">🧾</div>
+          <h3>Reddito imponibile</h3>
+          <p>La base su cui si calcola l'imposta</p>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step">
+          <div class="flow-icon">📋</div>
+          <h3>× Aliquota</h3>
+          <p>15% forfettario / scaglioni IRPEF ordinario</p>
+        </div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-step highlight-step">
+          <div class="flow-icon">💳</div>
+          <h3>Imposta dovuta</h3>
+          <p>Quello che paghi allo Stato</p>
+        </div>
+      </div>
+
+      <div class="cards-grid">
+        <div class="info-card">
+          <div class="card-icon">📅</div>
+          <h3>Acconto e Saldo</h3>
+          <p>Le tasse si pagano in tre rate:</p>
+          <ul>
+            <li><strong>Saldo anno precedente:</strong> entro il 30 giugno</li>
+            <li><strong>1° acconto (40%):</strong> entro il 30 giugno</li>
+            <li><strong>2° acconto (60%):</strong> entro il 30 novembre</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <div class="card-icon">🏦</div>
+          <h3>Come si paga</h3>
+          <p>Tramite il modello <strong>F24</strong>, compilabile online su:</p>
+          <ul>
+            <li>Sito Agenzia delle Entrate</li>
+            <li>Home banking della tua banca</li>
+            <li>Software del commercialista</li>
+          </ul>
+          <p>I codici tributo più comuni: <code>1792</code> (forfettario), <code>4001</code> (IRPEF saldo).</p>
+        </div>
+        <div class="info-card">
+          <div class="card-icon">📂</div>
+          <h3>Dichiarazione dei redditi</h3>
+          <p>Ogni anno devi presentare il <strong>Modello Redditi PF</strong> (ex Unico) entro il <strong>30 novembre</strong>. Include tutti i redditi, le detrazioni e la liquidazione delle imposte.</p>
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>📌 Esempio pratico — Forfettario</h3>
+        <div class="example-calc">
+          <div class="calc-row"><span>Ricavi annui</span><span>€30.000</span></div>
+          <div class="calc-row"><span>× Coefficiente redditività (78%)</span><span>€23.400</span></div>
+          <div class="calc-row"><span>− Contributi INPS dedotti</span><span>−€3.500</span></div>
+          <div class="calc-row"><span>= Reddito imponibile</span><span>€19.900</span></div>
+          <div class="calc-row"><span>× Aliquota forfettaria (15%)</span><span>€2.985</span></div>
+          <div class="calc-row highlight-row"><span><strong>Imposta IRPEF sostitutiva</strong></span><span><strong>€2.985</strong></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTRIBUTI -->
+  <section id="contributi" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Contributi Previdenziali</h2>
+      <p class="section-intro">Oltre alle tasse, devi versare i contributi INPS che costruiscono la tua pensione. Sono una quota significativa del tuo reddito.</p>
+
+      <div class="cards-grid">
+        <div class="info-card">
+          <div class="card-icon">🏛️</div>
+          <h3>Gestione Separata INPS</h3>
+          <p>Per la maggior parte dei freelance (consulenti, sviluppatori, designer, ecc.):</p>
+          <ul>
+            <li>Aliquota: <strong>~26,23%</strong> sul reddito netto</li>
+            <li>Contributo minimo: nessuno (si paga solo se si guadagna)</li>
+            <li>Versamento: rate con l'F24</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <div class="card-icon">🔨</div>
+          <h3>Artigiani e Commercianti</h3>
+          <p>Iscritti alla Gestione Artigiani/Commercianti INPS:</p>
+          <ul>
+            <li>Contributo fisso minimo annuo: ~€4.200</li>
+            <li>Contributo variabile sul reddito eccedente il minimale</li>
+            <li>Si paga anche a zero ricavi</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <div class="card-icon">⚖️</div>
+          <h3>Casse di Categoria</h3>
+          <p>Professionisti ordinistici (avvocati, medici, ingegneri…):</p>
+          <ul>
+            <li>Iscritti alla propria Cassa (es. CNPADC per commercialisti)</li>
+            <li>Non si iscrivono alla Gestione Separata</li>
+            <li>Regole proprie per ogni categoria</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="alert alert-info">
+        <strong>💡 Riduzione contributi forfettario:</strong> Se sei in regime forfettario puoi chiedere la riduzione contributiva del <strong>35%</strong> alla Gestione Separata INPS. Però i contributi ridotti si riflettono su una pensione futura più bassa.
+      </div>
+
+      <div class="example-box">
+        <h3>📌 Contributi Gestione Separata — Esempio</h3>
+        <div class="example-calc">
+          <div class="calc-row"><span>Reddito netto (ricavi − spese o coefficiente)</span><span>€20.000</span></div>
+          <div class="calc-row"><span>× Aliquota Gestione Separata (26,23%)</span><span>€5.246</span></div>
+          <div class="calc-row highlight-row"><span><strong>Contributi INPS annui</strong></span><span><strong>€5.246</strong></span></div>
+          <div class="calc-row"><span>Deducibili dal reddito imponibile (forfettario)</span><span>✅ Sì</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCADENZE -->
+  <section id="scadenze" class="section">
+    <div class="container">
+      <h2 class="section-title">Calendario delle Scadenze</h2>
+      <p class="section-intro">Tenere d'occhio le scadenze fiscali è fondamentale per evitare sanzioni e interessi.</p>
+
+      <div class="calendar">
+        <div class="calendar-month">
+          <div class="month-header">Marzo</div>
+          <div class="deadline-item">
+            <div class="deadline-date">31 mar</div>
+            <div class="deadline-desc">Invio dichiarazione IVA annuale (regime ordinario)</div>
+          </div>
+        </div>
+        <div class="calendar-month">
+          <div class="month-header">Aprile</div>
+          <div class="deadline-item">
+            <div class="deadline-date">30 apr</div>
+            <div class="deadline-desc">Comunicazione liquidazioni periodiche IVA (LIPE) — 1° trimestre</div>
+          </div>
+        </div>
+        <div class="calendar-month">
+          <div class="month-header">Giugno</div>
+          <div class="deadline-item important">
+            <div class="deadline-date">30 giu</div>
+            <div class="deadline-desc">⚠️ Saldo IRPEF + 1° acconto (40%) — Modello Redditi PF</div>
+          </div>
+          <div class="deadline-item important">
+            <div class="deadline-date">30 giu</div>
+            <div class="deadline-desc">⚠️ Contributi INPS: saldo + 1° acconto</div>
+          </div>
+        </div>
+        <div class="calendar-month">
+          <div class="month-header">Luglio</div>
+          <div class="deadline-item">
+            <div class="deadline-date">31 lug</div>
+            <div class="deadline-desc">LIPE — 2° trimestre</div>
+          </div>
+        </div>
+        <div class="calendar-month">
+          <div class="month-header">Novembre</div>
+          <div class="deadline-item important">
+            <div class="deadline-date">30 nov</div>
+            <div class="deadline-desc">⚠️ 2° acconto IRPEF (60%) e contributi INPS 2° acconto</div>
+          </div>
+          <div class="deadline-item important">
+            <div class="deadline-date">30 nov</div>
+            <div class="deadline-desc">⚠️ Invio Modello Redditi PF (dichiarazione annuale)</div>
+          </div>
+        </div>
+        <div class="calendar-month">
+          <div class="month-header">Dicembre</div>
+          <div class="deadline-item">
+            <div class="deadline-date">31 dic</div>
+            <div class="deadline-desc">LIPE — 3° trimestre; fine anno fiscale</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="alert alert-warning">
+        <strong>⚠️ Ravvedimento operoso:</strong> Se paghi in ritardo, puoi regolarizzare la tua posizione con sanzioni ridotte tramite il ravvedimento operoso. Prima paghi, minore è la sanzione (0,1%/giorno nei primi 14 giorni).
+      </div>
+    </div>
+  </section>
+
+  <!-- CALCOLATORE -->
+  <section id="calcolatore" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Calcolatore Tasse Forfettario</h2>
+      <p class="section-intro">Stima le tue tasse e contributi in regime forfettario. I valori sono indicativi — consulta sempre un commercialista.</p>
+
+      <div class="calculator">
+        <div class="calc-form">
+          <div class="form-group">
+            <label for="ricavi">Ricavi annui previsti (€)</label>
+            <input type="number" id="ricavi" placeholder="es. 30000" min="0" max="85000" />
+          </div>
+          <div class="form-group">
+            <label for="coefficiente">Coefficiente redditività (%)</label>
+            <select id="coefficiente">
+              <option value="0.78">78% — Professionisti / IT / Consulenza</option>
+              <option value="0.40">40% — Commercio al dettaglio / Ristorazione</option>
+              <option value="0.86">86% — Costruzioni / Artigiani</option>
+              <option value="0.62">62% — Intermediari</option>
+              <option value="0.67">67% — Altre attività</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="aliquota">Aliquota imposta sostitutiva (%)</label>
+            <select id="aliquota">
+              <option value="0.05">5% — Nuova attività (primi 5 anni)</option>
+              <option value="0.15" selected>15% — Regime standard</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="riduzione">Riduzione contributi INPS 35%?</label>
+            <select id="riduzione">
+              <option value="no">No — contributi pieni</option>
+              <option value="si">Sì — riduzione 35%</option>
+            </select>
+          </div>
+          <button class="btn-primary" onclick="calcola()">Calcola</button>
+        </div>
+
+        <div class="calc-results" id="risultati">
+          <h3>I tuoi risultati</h3>
+          <div class="result-row"><span>Ricavi annui</span><span id="r-ricavi">—</span></div>
+          <div class="result-row"><span>Reddito lordo (× coefficiente)</span><span id="r-lordo">—</span></div>
+          <div class="result-row"><span>Contributi INPS stimati</span><span id="r-inps">—</span></div>
+          <div class="result-row"><span>Reddito imponibile (al netto INPS)</span><span id="r-imponibile">—</span></div>
+          <div class="result-row"><span>Imposta sostitutiva</span><span id="r-imposta">—</span></div>
+          <div class="result-row total"><span><strong>Netto stimato in tasca</strong></span><span id="r-netto"><strong>—</strong></span></div>
+          <div class="result-row total"><span><strong>Pressione fiscale totale</strong></span><span id="r-pressione"><strong>—</strong></span></div>
+          <p class="calc-disclaimer">* Stime indicative basate su Gestione Separata INPS (~26,23%). Non considerano detrazioni o situazioni particolari. Consulta un commercialista.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>💼 Partita IVA Guide</h4>
+          <p>Una guida pratica e indipendente per freelance e professionisti italiani.</p>
+        </div>
+        <div>
+          <h4>Link utili</h4>
+          <ul>
+            <li><a href="https://www.agenziaentrate.gov.it" target="_blank">Agenzia delle Entrate</a></li>
+            <li><a href="https://www.inps.it" target="_blank">INPS</a></li>
+            <li><a href="https://istruzione.mef.gov.it/fatturapa/" target="_blank">Fattura PA</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Disclaimer</h4>
+          <p>Le informazioni su questo sito sono a scopo informativo e non costituiscono consulenza fiscale o legale. Consulta sempre un commercialista abilitato.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Partita IVA Guide — Aggiornato alle norme 2024</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="partita-iva.js"></script>
+</body>
+</html>
