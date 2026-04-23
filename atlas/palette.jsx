@@ -1,6 +1,7 @@
 /* command palette + help overlay + quick capture parser */
 
-function CommandPalette({ open, onClose, onRoute }) {
+function CommandPalette({ open = true, onClose, onRoute, setRoute }) {
+  onRoute = onRoute || setRoute;
   const [state, api] = useStore();
   const events = useEvents();
   const [q, setQ] = React.useState('');
@@ -60,6 +61,7 @@ function CommandPalette({ open, onClose, onRoute }) {
             if (e.key === 'ArrowDown') { e.preventDefault(); setIdx(i => Math.min(i+1, filtered.length-1)); }
             else if (e.key === 'ArrowUp') { e.preventDefault(); setIdx(i => Math.max(i-1, 0)); }
             else if (e.key === 'Enter') { e.preventDefault(); filtered[idx] && exec(filtered[idx]); }
+            else if (e.key === 'Escape') { e.preventDefault(); onClose(); }
           }}
         />
         <div className="palette-list">
@@ -203,4 +205,5 @@ function parseSub(body) {
   return { kind: 'sub', name: toks.join(' '), amount };
 }
 
-Object.assign(window, { CommandPalette, HelpOverlay, parseCapture });
+const Palette = CommandPalette;
+Object.assign(window, { CommandPalette, Palette, HelpOverlay, parseCapture });
